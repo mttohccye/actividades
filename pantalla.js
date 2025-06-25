@@ -47,7 +47,7 @@
 		}
 
 		function imagen5(){
-			oElement.src = "Horarios_archivos/Horarios.htm";
+			oElement.src = "Horarios_archivos/sheet001.htm";
 			oElement.style.transform = `scale(${1.7})`;
 		}
 

@@ -38,17 +38,17 @@
 
 		function imagen3(){
 			oElement.src = "mtto1e31d_archivos/sheet001.htm";
-			oElement.style.transform = `scale(${1.3})`;
+			oElement.style.transform = `scale(${1.33})`;
 		}
 
 		function imagen4(){
 			oElement.src = "mtto1eayer_archivos/sheet001.htm";
-			oElement.style.transform = `scale(${1.3})`;
+			oElement.style.transform = `scale(${1.33})`;
 		}
 
 		function imagen5(){
 			oElement.src = "Horarios_archivos/sheet001.htm";
-			oElement.style.transform = `scale(${2})`;
+			oElement.style.transform = `scale(${2.1})`;
 		}
 
 		// Iniciar la ejecución

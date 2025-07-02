@@ -28,27 +28,27 @@
 
 		function imagen1(){
 			oElement.src = "mtto1e31d_archivos/sheet002.htm";
-			oElement.style.transform = `scale(${1})`;
+			oElement.style.transform = `scale(${1.2})`;
 		}
 
 		function imagen2(){
 			oElement.src = "mtto1eayer_archivos/sheet002.htm";
-			oElement.style.transform = `scale(${1})`;
+			oElement.style.transform = `scale(${1.2})`;
 		}
 
 		function imagen3(){
 			oElement.src = "mtto1e31d_archivos/sheet001.htm";
-			oElement.style.transform = `scale(${1.2})`;
+			oElement.style.transform = `scale(${1.3})`;
 		}
 
 		function imagen4(){
 			oElement.src = "mtto1eayer_archivos/sheet001.htm";
-			oElement.style.transform = `scale(${1.2})`;
+			oElement.style.transform = `scale(${1.3})`;
 		}
 
 		function imagen5(){
 			oElement.src = "Horarios_archivos/sheet001.htm";
-			oElement.style.transform = `scale(${1.9})`;
+			oElement.style.transform = `scale(${2})`;
 		}
 
 		// Iniciar la ejecución

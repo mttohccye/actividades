@@ -8,11 +8,11 @@
 		contador = 0;
 
 		const intervals = [
-  			{ func: () => imagen1(), time: 5000 },
-  			{ func: () => imagen2(), time: 5000 },
-  			{ func: () => imagen3(), time: 15000 },
-  			{ func: () => imagen4(), time: 15000 },
-  			{ func: () => imagen5(), time: 10000 }
+  			{ func: () => imagen1(), time: 9000 },
+  			{ func: () => imagen2(), time: 9000 },
+  			{ func: () => imagen3(), time: 20000 },
+  			{ func: () => imagen4(), time: 20000 },
+  			{ func: () => imagen5(), time: 15000 }
 		];
 
 		function ejecutarSiguienteIntervalo() {

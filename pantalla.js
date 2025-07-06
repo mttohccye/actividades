@@ -13,7 +13,7 @@
   			{ func: () => imagen3(), time: 20000 },
   			{ func: () => imagen4(), time: 20000 },
   			{ func: () => imagen5(), time: 15000 },
-  			{ func: () => imagen6(), time: 3000 }
+  			{ func: () => imagen6(), time: 20000 }
 		];
 
 		function ejecutarSiguienteIntervalo() {

@@ -12,8 +12,8 @@
   			{ func: () => imagen2(), time: 9000 },
   			{ func: () => imagen3(), time: 20000 },
   			{ func: () => imagen4(), time: 20000 },
-  			{ func: () => imagen5(), time: 15000 },
-  			{ func: () => imagen6(), time: 20000 }
+  			{ func: () => imagen5(), time: 15000 }/*,
+  			{ func: () => imagen6(), time: 20000 }*/
 		];
 
 		function ejecutarSiguienteIntervalo() {
@@ -52,10 +52,10 @@
 			oElement.style.transform = `scale(${screen.width/754})`;
 		}
 
-		function imagen6(){
+		/*function imagen6(){
 			oElement.src = "eventos_archivos/sheet001.htm";
 			oElement.style.transform = `scale(${screen.width/754})`;
-		}
+		}*/
 
 		// Iniciar la ejecución
 		ejecutarSiguienteIntervalo();

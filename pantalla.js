@@ -53,8 +53,8 @@
 		}
 
 		function imagen6(){
-			oElement.src = "Cuadro de eventos 11 12 y 13 de Julio.pdf";
-			oElement.style.transform = `scale(${screen.width/1250})`;
+			oElement.src = "cuadroeventos.png";
+			oElement.style.transform = `scale(${screen.width/970})`;
 		}
 
 		// Iniciar la ejecución

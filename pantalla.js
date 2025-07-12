@@ -47,9 +47,14 @@
 			oElement.style.transform = `scale(${screen.width/1186})`;
 		}
 
-		function imagen5(){
+		/*function imagen5(){
 			oElement.src = "Horarios_archivos/sheet001.htm";
 			oElement.style.transform = `scale(${screen.width/754})`;
+		}*/
+
+		function imagen5(){
+			oElement.src = "horarios.png";
+			oElement.style.transform = `scale(${screen.width/900})`;
 		}
 
 		function imagen6(){

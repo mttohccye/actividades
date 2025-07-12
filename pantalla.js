@@ -21,7 +21,7 @@
  		 	current.func();
   			currentIntervalIndex = (currentIntervalIndex + 1) % intervals.length; // Bucle
   			intervalId = setTimeout(ejecutarSiguienteIntervalo, current.time);
-  			if (contador == 10) {
+  			if (contador == 41) {
   				location.reload();
   			}
   			contador = contador + 1;

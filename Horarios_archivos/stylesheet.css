@@ -217,6 +217,17 @@ td
 	mso-pattern:black none;}
 .xl80
 	{mso-style-parent:style0;
+	color:#333F4F;
+	font-size:12.0pt;
+	font-family:"Agency FB", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:2.0pt double black;
+	background:#B4C6E7;
+	mso-pattern:black none;}
+.xl81
+	{mso-style-parent:style0;
 	color:white;
 	font-size:16.0pt;
 	font-weight:700;
@@ -230,22 +241,11 @@ td
 	border-left:none;
 	background:#0070C0;
 	mso-pattern:black none;}
-.xl81
-	{mso-style-parent:style0;
-	color:#333F4F;
-	font-size:12.0pt;
-	font-weight:700;
-	font-family:"Agency FB", sans-serif;
-	mso-font-charset:0;
-	text-align:center;
-	vertical-align:middle;
-	border:2.0pt double black;
-	background:#B4C6E7;
-	mso-pattern:black none;}
 .xl82
 	{mso-style-parent:style0;
 	color:#333F4F;
 	font-size:12.0pt;
+	font-weight:700;
 	font-family:"Agency FB", sans-serif;
 	mso-font-charset:0;
 	text-align:center;
@@ -466,3 +466,33 @@ td
 	border-bottom:1.0pt solid windowtext;
 	border-left:none;
 	white-space:normal;}
+.xl100
+	{mso-style-parent:style0;
+	color:#333F4F;
+	font-size:12.0pt;
+	font-weight:700;
+	font-family:"Agency FB", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:2.0pt double black;
+	border-right:none;
+	border-bottom:2.0pt double black;
+	border-left:none;
+	background:#B4C6E7;
+	mso-pattern:black none;}
+.xl101
+	{mso-style-parent:style0;
+	color:#333F4F;
+	font-size:12.0pt;
+	font-weight:700;
+	font-family:"Agency FB", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:2.0pt double black;
+	border-right:1.0pt solid windowtext;
+	border-bottom:2.0pt double black;
+	border-left:none;
+	background:#B4C6E7;
+	mso-pattern:black none;}

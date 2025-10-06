@@ -55,10 +55,10 @@
 		}
 
 		function imagen5(){
-			/*oElement.src = "Horarios_archivos/sheet001.htm";
-			oElement.style.transform = `scale(${screen.width/754})`;*/
-			oElement.src = "horarios.png";
-			oElement.style.transform = `scale(${screen.width/900})`;
+			oElement.src = "Horarios_archivos/sheet001.htm";
+			oElement.style.transform = `scale(${screen.width/754})`;
+			/*oElement.src = "horarios.png";
+			oElement.style.transform = `scale(${screen.width/900})`;*/
 		}
 
 		/*function imagen6(){

@@ -14,12 +14,12 @@
 		}*/
 
 		const intervals = [
-  			{ func: () => imagen1(), time: 9000 },
+  			/*{ func: () => imagen1(), time: 9000 },
   			{ func: () => imagen2(), time: 9000 },
   			{ func: () => imagen3(), time: 20000 },
-  			{ func: () => imagen4(), time: 20000 },
-  			{ func: () => imagen5(), time: 15000 }/*,
-  			{ func: () => imagen6(), time: 20000 }*/
+  			{ func: () => imagen4(), time: 20000 },*/
+  			{ func: () => imagen5(), time: 15000 },
+  			{ func: () => imagen6(), time: 20000 }
 		];
 
 		function ejecutarSiguienteIntervalo() {
@@ -27,14 +27,15 @@
  		 	current.func();
   			currentIntervalIndex = (currentIntervalIndex + 1) % intervals.length; // Bucle
   			intervalId = setTimeout(ejecutarSiguienteIntervalo, current.time);
-  			if (contador == 62) {
+  			//if (contador == 62) {
+  			if (contador == 150) {
   				location.reload();
   			}
   			contador = contador + 1;
   			console.log(contador);
 		}
 
-		function imagen1(){
+		/*function imagen1(){
 			oElement.src = "mtto1e31d_archivos/sheet002.htm";
 			oElement.style.transform = `scale(${screen.width/1300})`;
 		}
@@ -52,7 +53,7 @@
 		function imagen4(){
 			oElement.src = "mtto1eayer_archivos/sheet001.htm";
 			oElement.style.transform = `scale(${screen.width/1186})`;
-		}
+		}*/
 
 		function imagen5(){
 			oElement.src = "Horarios_archivos/sheet001.htm";
@@ -61,10 +62,10 @@
 			oElement.style.transform = `scale(${screen.width/900})`;*/
 		}
 
-		/*function imagen6(){
+		function imagen6(){
 			oElement.src = "cuadroeventos.png";
 			oElement.style.transform = `scale(${screen.width/970})`;
-		}*/
+		}
 
 		// Iniciar la ejecución
 		ejecutarSiguienteIntervalo();

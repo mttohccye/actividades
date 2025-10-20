@@ -19,7 +19,8 @@
   			{ func: () => imagen3(), time: 20000 },
   			{ func: () => imagen4(), time: 20000 },*/
   			{ func: () => imagen5(), time: 15000 },
-  			{ func: () => imagen6(), time: 20000 }
+  			//{ func: () => imagen6(), time: 20000 },
+  			{ func: () => imagen7(), time: 20000 }
 		];
 
 		function ejecutarSiguienteIntervalo() {
@@ -62,9 +63,14 @@
 			oElement.style.transform = `scale(${screen.width/900})`;*/
 		}
 
-		function imagen6(){
+		/*function imagen6(){
 			oElement.src = "cuadroeventos.png";
 			oElement.style.transform = `scale(${screen.width/970})`;
+		}*/
+
+		function imagen7(){
+			oElement.src = "hayueloscconline.jpg";
+			oElement.style.transform = `scale(${screen.width/1200})`;
 		}
 
 		// Iniciar la ejecución

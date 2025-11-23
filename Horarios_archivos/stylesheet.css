@@ -202,6 +202,18 @@ td
 	mso-pattern:black none;}
 .xl79
 	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:7.0pt;
+	font-family:"Agency FB", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border:2.0pt double black;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl80
+	{mso-style-parent:style0;
 	color:white;
 	font-size:16.0pt;
 	font-weight:700;
@@ -215,7 +227,7 @@ td
 	border-left:none;
 	background:#0070C0;
 	mso-pattern:black none;}
-.xl80
+.xl81
 	{mso-style-parent:style0;
 	color:#333F4F;
 	font-size:12.0pt;
@@ -227,18 +239,6 @@ td
 	border:2.0pt double black;
 	background:#B4C6E7;
 	mso-pattern:black none;}
-.xl81
-	{mso-style-parent:style0;
-	color:windowtext;
-	font-size:7.0pt;
-	font-family:"Agency FB", sans-serif;
-	mso-font-charset:0;
-	text-align:center;
-	vertical-align:middle;
-	border:2.0pt double black;
-	background:yellow;
-	mso-pattern:black none;
-	white-space:normal;}
 .xl82
 	{mso-style-parent:style0;
 	color:white;

@@ -19,7 +19,7 @@
   			{ func: () => imagen3(), time: 20000 },
   			{ func: () => imagen4(), time: 20000 },*/
   			{ func: () => imagen5(), time: 15000 },
-  			//{ func: () => imagen6(), time: 20000 },
+  			{ func: () => imagen6(), time: 20000 },
   			//{ func: () => imagen6_1(), time: 20000 },
   			{ func: () => imagen7(), time: 20000 }
 		];
@@ -64,12 +64,12 @@
 			oElement.style.transform = `scale(${screen.width/900})`;*/
 		}
 
-		/*function imagen6(){
+		function imagen6(){
 			oElement.src = "cuadroeventos.png";
 			oElement.style.transform = `scale(${screen.width/970})`;
 		}
 
-		function imagen6_1(){
+		/*function imagen6_1(){
 			oElement.src = "cuadroeventos2.png";
 			oElement.style.transform = `scale(${screen.width/970})`;
 		}*/
